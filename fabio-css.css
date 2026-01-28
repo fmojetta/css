@@ -14,15 +14,14 @@ body {
 }
 
 .sidebar-draggable--cs {
-  transition: 
-    background-color 0.2s ease,
-    transform 0.25s ease;
-    transform-origin: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease !important;
+  transform-style: preserve-3d !important;
 }
 
 .sidebar-draggable--cs:hover {
   background-color: #c6d1f6 !important;
-  transform: perspective(400px) rotateX(12deg) rotateY(-12deg) !important;
+  transform: perspective(400px) rotateX(12deg) rotateY(-12deg) translateZ(8px) !important;
+  box-shadow: 0 25px 40px rgba(0,0,0,0.25) !important;
 }
 
   .sidebar-draggable-paragraph--cs {
