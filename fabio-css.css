@@ -13,8 +13,16 @@ body {
 
 }
 
+.sidebar-draggable--cs {
+  transition: 
+    background-color 0.2s ease,
+    transform 0.25s ease;
+    transform-origin: center;
+}
+
 .sidebar-draggable--cs:hover {
   background-color: red !important;
+  transform: perspective(600px) rotateX(6deg) rotateY(-6deg) !important;
 }
 
   .sidebar-draggable-paragraph--cs {
