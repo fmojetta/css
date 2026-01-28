@@ -22,7 +22,7 @@ body {
 
 .sidebar-draggable--cs:hover {
   background-color: red !important;
-  transform: perspective(600px) rotateX(6deg) rotateY(-6deg) !important;
+  transform: perspective(400px) rotateX(12deg) rotateY(-12deg) !important;
 }
 
   .sidebar-draggable-paragraph--cs {
