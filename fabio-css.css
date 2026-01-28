@@ -1,16 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=UnifrakturMaguntia&display=swap');
+
 body {
-  background-color: red !important;
+  
 }
 
 .body__title--cs {
-  color: blue !important;
-  font-family: "Times New Roman", Times, serif !important;
-  font-weight: bold !important;
+  color: black !important;
+  font-family: "Manufacturing Consent", system-ui !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
 
 }
 
   .sidebar-draggable-paragraph--cs {
-    background-color: red !important;
+    
   }
 
   .SidebarModule_imageDrag__-XEVH svg {
