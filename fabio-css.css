@@ -21,7 +21,7 @@ body {
 }
 
 .sidebar-draggable--cs:hover {
-  background-color: red !important;
+  background-color: #c6d1f6 !important;
   transform: perspective(400px) rotateX(12deg) rotateY(-12deg) !important;
 }
 
