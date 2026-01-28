@@ -7,6 +7,8 @@ body {
   font-family: "Times New Roman", Times, serif !important;
   font-weight: bold !important;
 
+}
+
   .sidebar-draggable-paragraph--cs {
     background-color: red !important;
   }
@@ -16,13 +18,12 @@ body {
 }
 
   .SidebarModule_imageDrag__-XEVH {
-  width: 36px;
-  height: 36px;
-  background-image: url("https://www.svgrepo.com/show/530353/grape.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
+  width: 36px !important;
+  height: 36px !important;
+  background-image: url("https://www.svgrepo.com/show/530353/grape.svg") !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+  background-position: center !important;
 }
   
-  
-}
+
