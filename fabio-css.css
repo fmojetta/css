@@ -6,6 +6,11 @@ body {
   color: blue !important;
   font-family: "Times New Roman", Times, serif !important;
   font-weight: bold !important;
+
+  .sidebar-draggable-paragraph--cs {
+    color: red !important;
+  }
+  
   
   
 }
