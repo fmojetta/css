@@ -10,7 +10,19 @@ body {
   .sidebar-draggable-paragraph--cs {
     background-color: red !important;
   }
-  
+
+  .SidebarModule_imageDrag__-XEVH svg {
+  display: none;
+}
+
+  .SidebarModule_imageDrag__-XEVH {
+  width: 36px;
+  height: 36px;
+  background-image: url("https://www.svgrepo.com/show/530353/grape.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
   
   
 }
